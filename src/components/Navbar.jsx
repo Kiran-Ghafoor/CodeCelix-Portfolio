@@ -1,6 +1,7 @@
 import BrandLogo from './BrandLogo.jsx';
 
 const links = [
+  ['#hero', 'Home'],
   ['#work', 'Work'],
   ['#services', 'Services'],
   ['#company', 'Company'],

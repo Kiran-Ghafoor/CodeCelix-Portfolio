@@ -1,4 +1,5 @@
 const links = [
+  ['#hero', 'Home'],
   ['#work', 'Work'],
   ['#services', 'Services'],
   ['#company', 'Company'],
