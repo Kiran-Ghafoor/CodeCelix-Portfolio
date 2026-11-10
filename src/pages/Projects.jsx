@@ -13,6 +13,7 @@ const order = [
   'Smart City Traffic Control',
   'Letterwise – Smarter Inbox, More Focus',
   'CodeCelix Lead Finder',
+  'Baig Tours Pakistan',
 ];
 
 const allProjects = order
