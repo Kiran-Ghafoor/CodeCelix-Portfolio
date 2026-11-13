@@ -10,7 +10,12 @@ export default function Company() {
           <div className="company__grid">
             <article className="cert-card">
               <div className="cert-card__top">
-                <span className="cert-card__logo" aria-hidden="true">SECP</span>
+                <img
+                  className="cert-card__logo"
+                  src="assets/SECP_LOGO.jfif"
+                  alt="SECP logo"
+                  loading="lazy"
+                />
                 <div>
                   <h3 className="cert-card__title">Incorporated with SECP</h3>
                   <p className="cert-card__org">Securities and Exchange Commission of Pakistan, under the Companies Act, 2017.</p>
@@ -41,7 +46,12 @@ export default function Company() {
             </article>
             <article className="cert-card">
               <div className="cert-card__top">
-                <span className="cert-card__logo" aria-hidden="true">PSEB</span>
+                <img
+                  className="cert-card__logo"
+                  src="assets/PSEB_LOGO.jfif"
+                  alt="PSEB logo"
+                  loading="lazy"
+                />
                 <div>
                   <h3 className="cert-card__title">Registered with PSEB</h3>
                   <p className="cert-card__org">Pakistan Software Export Board, under the Ministry of IT and Telecom.</p>

@@ -104,7 +104,7 @@ header.nav.nav--on-dark .nav__toggle span{background:var(--ink);}
 .company__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:stretch;}
 .cert-card{background:#FFFFFF;border-radius:16px;padding:28px;display:flex;flex-direction:column;}
 .cert-card__top{display:flex;align-items:flex-start;gap:16px;margin-bottom:24px;}
-.cert-card__logo{flex-shrink:0;width:52px;height:52px;border-radius:12px;background:#E5F3F2;color:#075F64;display:flex;align-items:center;justify-content:center;font-family:'Bricolage Grotesque',sans-serif;font-size:0.68rem;font-weight:700;letter-spacing:0.04em;}
+.cert-card__logo{flex-shrink:0;width:64px;height:52px;border-radius:12px;background:#FFFFFF;border:1px solid rgba(7,95,100,0.14);object-fit:contain;padding:4px;}
 .cert-card__title{font-family:'Bricolage Grotesque',sans-serif;font-size:1.12rem;font-weight:600;line-height:1.25;color:#04363A;margin:0 0 6px;}
 .cert-card__org{font-size:0.88rem;line-height:1.6;color:#55696C;margin:0;}
 .cert-card__facts{display:flex;flex-direction:column;margin:0 0 24px;}
