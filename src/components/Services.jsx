@@ -4,22 +4,22 @@ const services = [
   {
     title: 'Websites and web apps',
     desc: 'Company sites, booking systems and dashboards that load fast and look sharp.',
-    image: 'assets/CodeCelixWeb_img.png',
+    image: 'assets/WEB_SERVICE_1.png',
   },
   {
     title: 'Mobile apps',
     desc: 'Android and iPhone apps for your customers or your own team.',
-    image: 'assets/Daywise_Productivity_Coach.png',
+    image: 'assets/APP_DEV_SERVICE.png',
   },
   {
     title: 'AI automation',
     desc: 'Hand off the repeat work, like data entry and document handling.',
-    image: 'assets/ai_powered_automation.png',
+    image: 'assets/AI_AUTOMATION_SERVICE.png',
   },
   {
     title: 'AI assistants',
     desc: 'Chat helpers that answer customers and support your staff.',
-    image: 'assets/StyloVerse_img.png',
+    image: 'assets/AI_ASSISTANT_SERVICE.png',
   },
 ];
 
@@ -37,7 +37,6 @@ export default function Services() {
               <div className="service-panel__body">
                 <h3 className="service-panel__title">{service.title}</h3>
                 <p className="service-panel__desc">{service.desc}</p>
-                <a className="service-panel__link" href="#contact">Learn more</a>
               </div>
             </article>
           ))}
